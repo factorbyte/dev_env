@@ -1,0 +1,63 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- 测试 / 缓存 ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ---- IDE / 编辑器 ----
+.idea/
+.vscode/
+*.swp
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+.virtual_documents/
+
+# ---- 数据（行情/大数据文件通常不进 git，按需调整）----
+data/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.db
+*.sqlite
+
+# ---- 模型权重 / 检查点 ----
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+checkpoints/
+runs/
+
+# ---- 日志 ----
+*.log
+logs/
+
+# ---- 密钥 / 环境变量 ----
+.env
+.env.*
+*.key
+secrets/
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
